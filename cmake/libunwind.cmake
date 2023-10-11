@@ -203,4 +203,5 @@ target_compile_definitions(unwind_ptrace
 )
 target_link_libraries(unwind_ptrace PRIVATE
   sapi::base
+  z
 )
